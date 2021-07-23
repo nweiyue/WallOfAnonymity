@@ -19,7 +19,7 @@
 
   <body>
     <header class="header">
-      <h1>Post your notes below!</h1>
+      <h1 class="pb-5 pt-5">Post your notes below!</h1>
     </header>
     <div class="container">
       <div class="row addNotes">
@@ -27,36 +27,47 @@
           <label class="form-label">Write your note here:</label>
           <textarea
           class="form-control border-warning mb-3"
-          id="typingBox"
+          id="addNoteBox"
           rows="2"
         ></textarea>
         </div>
         <div class="col-sm-2 pt-5 mt-1">
-          <button class="btn btn-warning" type="submit">Send</button>
+          <button class="btn btn-warning" id="submitButton" type="submit">Submit</button>
         </div>
-
       </div>
 
       <h3>Latest posts</h3>
-
+      <hr>
+      <div id="latestPosts" class="row row-cols-1 row-cols-md-2 g-4"></div>
       <hr>
 
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card text-dark bg-warning mb-3  h-100">
-            <div class="card-header">Header</div>
-              <div class="card-body">
-                <h5 class="card-title">Warning card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-          </div>
+      <h1 class="pb-5 pt-5">Chat with the community!</h1>
+      <div class="row">
+        <div class="col-md-8 sm-12">
+          <label class="form-label">Chat Box:</label>
+          <textarea
+          class="form-control border-warning mb-3"
+          id="chatBox"
+          rows="15"
+          disabled="disabled"
+        ></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 sm-12">
+          <label class="form-label">Message:</label>
+          <textarea
+          class="form-control border-warning mb-3"
+          id="typingBox"
+          rows="1"
+        ></textarea>
+        </div>
+        <div class="col-sm-2 pt-4 mt-2">
+          <button class="btn btn-warning" id="sendButton" type="submit">Send</button>
         </div>
       </div>
     </div>
-      <div>
-        Chat box: <br />
-        <textarea id="chatBox" rows="16" cols="16"></textarea>
-      </div>
+
 
       <footer class="footer" id="myFooter"></footer>
     </div>
