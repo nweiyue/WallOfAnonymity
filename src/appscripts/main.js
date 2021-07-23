@@ -19,7 +19,7 @@ iosocket.on("connect", function () {
 		//console.log("You received a message " + m.data);
 		//instead of just printing the object we get, we can print out the attribute we created to hold the message
 		if (m.mtype === "chatText") {
-			chatBox.value += m.username + ">" + m.data + "\n";
+			chatBox.value += m.username + "> " + m.data + "\n";
 		}
 		// print the message out to the chatbox of other clients connected
 
@@ -97,7 +97,7 @@ typingBox.addEventListener("keypress", function (event) {
 
 		if (message != "") {
 			// write text in the typingBox to the chatbox
-			chatBox.value += uname + ">" + message + "\n";
+			chatBox.value += uname + "> " + message + "\n";
 
 			// clear the typingBox
 			typingBox.value = "";
@@ -120,7 +120,7 @@ sendButton.addEventListener("click", function (e) {
 
 	if (message != "") {
 		// write text in the typingBox to the chatbox
-		chatBox.value += uname + ">" + message + "\n";
+		chatBox.value += uname + "> " + message + "\n";
 
 		// clear the typingBox
 		typingBox.value = "";
