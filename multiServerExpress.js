@@ -12,7 +12,7 @@ var portnum = process.argv[2] || 3000; // Get portnum from the command line if i
  
 // Use www as the "root" directory for all requests.
 // if no path is given, it will look for index.html in that directoy.
-app.use(express.static('www')); 
+app.use(express.static('src')); 
 // we tell the app (application) through the use of the express library, to look in the "www" folder for static files, 
 //thats where we will keep our index.html so that our webpage can be found
 

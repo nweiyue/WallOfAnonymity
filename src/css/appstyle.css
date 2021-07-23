@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+header {
+  margin: auto;
+  width: 50%;
+  text-align:center
+}
+
+.addNotes {
+  margin-bottom: 60px;
+}
