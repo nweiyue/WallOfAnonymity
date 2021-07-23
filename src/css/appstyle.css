@@ -1,17 +1,20 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
-  background-color: #fff;
-  background-image: url("../../images/brandi-alexandra-_SFzNHc8ftg-unsplash.jpg");
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+}
+
+body {
+	background-image: url(/../../images/brandi-alexandra-_SFzNHc8ftg-unsplash.jpg);
 }
 
 h1 {
-  margin: auto;
-  width: 50%;
-  text-align:center
+	margin: auto;
+	width: 50%;
+	text-align: center;
 }
 
 .addNotes {
-  margin-bottom: 60px;
+	margin-bottom: 60px;
 }
