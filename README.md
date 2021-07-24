@@ -22,7 +22,7 @@ More detailed explanations about our web application can be found below.
 3. Run ```node multiServerExpress.js [portNumber] [&]``` 
   * The parameters surrounded by the square brackets ```[]``` are optional.
   * If no ```portNumber``` is given, ```3000``` will be used as default.
-  * Use ```&`` to run the program in the background.
+  * Use ```&``` to run the program in the background.
 
 4. Open two different browsers and key ```localhost:[portNumber]``` in the address bar
   * If no ```portNumber``` was used, key ```localhost:3000``` instead.
