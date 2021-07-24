@@ -15,6 +15,17 @@ h1 {
 	text-align: center;
 }
 
+h6 {
+	margin: auto;
+	/* width: 50%; */  
+	text-align: center;
+	margin-bottom: 2%;
+}
+
 .addNotes {
 	margin-bottom: 60px;
+}
+
+.row{
+	margin-left: 20%;
 }
