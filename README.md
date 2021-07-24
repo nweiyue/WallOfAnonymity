@@ -21,6 +21,10 @@ This web application is currently not deployed.
   * If no ```[portNumber]``` is given, ```3000``` will be the default port number used
   * Use ```&`` to run the program in the background
 
+4. Open two different browsers and key ```localhost:[portNumber]``` in the address bar
+  * If no ```[portNumber]``` was used, key ```localhost:3000``` instead.
+
+
 ## Built With
 
 * HTML, CSS, Javascript, Bootstrap (frontend)
