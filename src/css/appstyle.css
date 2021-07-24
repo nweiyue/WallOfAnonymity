@@ -18,16 +18,11 @@ h1 {
 h6 {
 	margin: auto;
 	/* width: 50%; */  
-	text-align: center;
+	margin-left: 11.5%;
 	margin-bottom: 2%;
 }
 
 .addNotes {
 	margin-bottom: 60px;
 	width: 100%;
-}
-
-
-.row{
-	margin-left: 20%;
 }
