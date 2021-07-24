@@ -29,7 +29,7 @@ More detailed explanations about our web application can be found below.
 
 5. To stop the server, simply press ```ctrl-C``` or ```cmd-C``` if the application is **NOT** running in the background. Else, use ```ps``` to get the process id(pid) of the server and use ```kill <pid>``` to stop the server from running in the background.
 
-## Built Wit
+## Built With
 
 * HTML, CSS, Javascript, Bootstrap (frontend)
 * Node.js, Socket.io, express (backend)
