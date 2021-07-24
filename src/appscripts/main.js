@@ -6,7 +6,7 @@ let addNoteBox = document.getElementById("addNoteBox");
 let sendButton = document.getElementById("sendButton");
 
 // Open prompt box to prompt for the user name
-let uname = prompt("Please enter your name");
+let uname = prompt("Please enter your name (or leave blank to remain anonymous):");
 uname = uname || "anon"; //in case the user does not input anything
 
 iosocket.on("connect", function () {
